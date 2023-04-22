@@ -1,0 +1,11 @@
+name: PhantomDisabled
+version: '${project.version}'
+main: ru.phantomdisabled.PhantomDisabled
+api-version: 1.16
+authors: [ Dimianas ]
+website: https://2k2f.site/
+commands:
+  phantom:
+    description: Reload the config.yml file.
+    usage: /phantom reload
+    permission: phantom.reload
