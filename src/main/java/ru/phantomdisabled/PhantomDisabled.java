@@ -26,6 +26,9 @@ public final class PhantomDisabled extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onEntitySpawn(EntitySpawnEvent event) {
+        if (getConfig().getBoolean("prevent-phantom-spawn")) {
+            return;
+        }
         if (event.getEntityType() == EntityType.PHANTOM) {
             event.setCancelled(true);
         }

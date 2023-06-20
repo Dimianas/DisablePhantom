@@ -1,7 +1,7 @@
 name: PhantomDisabled
 version: '${project.version}'
 main: ru.phantomdisabled.PhantomDisabled
-api-version: 1.16
+api-version: 1.13
 authors: [ Dimianas ]
 website: https://2k2f.site/
 commands:
